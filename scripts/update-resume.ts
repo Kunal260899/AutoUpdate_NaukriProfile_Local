@@ -7,7 +7,7 @@ const RESUME_PATH = path.resolve(process.env.RESUME_PATH ?? 'resume/resume.pdf')
 const AUTH_STATE_PATH = path.resolve(process.env.AUTH_STATE_PATH ?? 'playwright/.auth/state.json');
 const ARTIFACT_DIR = path.resolve(process.env.ARTIFACT_DIR ?? 'artifacts');
 
-const headless = process.env.HEADLESS !== 'false';
+const headless = false;
 
 function log(message: string): void {
   console.log(`[naukri] ${new Date().toISOString()} ${message}`);
