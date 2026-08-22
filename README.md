@@ -142,7 +142,7 @@ The updater supports these environment variables:
 
 | Variable | Default | Purpose |
 |---|---|---|
-| `HEADLESS` | `true` | Set to `false` to run the browser visibly |
+| `HEADLESS` | `false` | Set to `true` to run the browser without any UI |
 | `RESUME_PATH` | `resume/resume.pdf` | Path to the resume |
 | `AUTH_STATE_PATH` | `playwright/.auth/state.json` | Path to the Playwright authentication state |
 | `ARTIFACT_DIR` | `artifacts` | Directory for screenshots and result files |
